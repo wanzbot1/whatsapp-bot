@@ -33,7 +33,7 @@ global.APIKeys = { // APIKey nya disini
   'https://hardianto.xyz': 'APIKEY',
   'https://api.neoxr.eu.org': 'APIKEY',
   'https://api.chipa.xyz': 'APIKEY',
-  'https://cakrayp.herokuapp.com': 'APIKEY',
+  'https://cakrayp.herokuapp.com': 'cakrayp24Q6',
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zahirr-web.herokuapp.com': 'APIKEY',
   'https://api.zeks.me': 'apivinz',
