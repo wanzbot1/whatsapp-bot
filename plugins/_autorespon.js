@@ -39,13 +39,6 @@ https://github.com/inirey
         m.reply(`ya erza di sini siap membantu\n_apa kak erza di sini\'erza di sini kak`)
     }
 
-    // salam
-    let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
-    let isSalam = reg.exec(m.text)
-    if (isSalam && !m.fromMe) {
-        m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`)
-    }
-
     // backup db
     if (set.backup) {
         if (new Date() * 1 - set.backupTime > 1000 * 60 * 60) {
@@ -67,7 +60,7 @@ https://github.com/inirey
         if (new Date() * 1 - set.status > 1000) {
             let _uptime = process.uptime() * 1000
             let uptime = conn.clockString(_uptime)
-            await this.setStatus(`Aktif selama ${uptime} | Mode: ${set.self ? 'Private' : set.group ? 'Hanya Grup' : 'Publik'} owner sekha`).catch(_ => _)
+            await this.setStatus(`Aktif selama ${uptime} | Mode: ${set.self ? 'Private' : set.group ? 'Hanya Grup' : 'Publik'} owner ice`).catch(_ => _)
             set.status = new Date() * 1
         }
     }
