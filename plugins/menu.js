@@ -47,9 +47,7 @@ const defaultMenu = {
 🔖 _TIME: %time_
 🔖 _RUNTIME: %uptime_
 🔖 _USERS: %rtotalreg_
-🔖 _WEB: https://erzaa.site_
-🔖 _Api: https://api.sekha.tech_
-🔖 _Owner: https://github.com/inirey_
+🔖 _WEB: https://icedragonstore.herokuapp.com
 
 
 _-_-_-_-_-_-_-_-_-_-_-_-_-_
