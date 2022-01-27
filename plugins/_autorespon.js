@@ -28,15 +28,8 @@ handler.all = async function (m, { conn, isBlocked }) {
 ├ 30 Hari / Rp 10,000
 └────
 
-https://github.com/inirey
+https://github.com
 `.trim(), '© sekha', 'Pemilik Bot', ',owner', m)
-    }
-
-    // erzabot
-    let reg = /(erz?a|er|za)/i
-    let isErza = reg.exec(m.text)
-    if (isErza && !m.fromMe) {
-        m.reply(`ya erza di sini siap membantu\n_apa kak erza di sini\'erza di sini kak`)
     }
 
     // backup db
