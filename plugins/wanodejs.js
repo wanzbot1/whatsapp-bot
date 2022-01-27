@@ -23,7 +23,7 @@ Rules:
 
 _silahkan join untuk mendapatkan info terbaru dari developer² bot lain terimakasih_
 
-https://chat.whatsapp.com/D7L8NP2Vnz7Eplx4OAvZdP
+https://chat.whatsapp.com/D7L8NP2Vnz7Eplx4OAv
 `.trim(), '© sekha', 'owner bot', ',owner', 'back menu', ',menu', m)
 
 handler.help = ['wanodejs']
