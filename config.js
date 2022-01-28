@@ -31,7 +31,7 @@ global.APIKeys = { // APIKey nya disini
   'https://server-api-rey.herokuapp.com': 'APIKEY',
   'https://bx-hunter.herokuapp.com': 'APIKEY',
   'https://hardianto.xyz': 'APIKEY',
-  'https://api.neoxr.eu.org': 'APIKEY',
+  'https://api.neoxr.eu.org': 'yourkey',
   'https://api.chipa.xyz': 'APIKEY',
   'https://cakrayp.herokuapp.com': 'cakrayp24Q6',
   'https://api.xteam.xyz': 'd90a9e986e18778b',
